@@ -30,6 +30,11 @@ class Solution:
         for j in nums1:
             output.append(hashmap[j])
         return output
+nums1 = [4,1,2]
+nums2 = [1,3,4,2]
+sol = Solution()
+res = sol.nextGreaterElement(nums1,nums2)
+print(res)
 """ 
 Example 1:
 
